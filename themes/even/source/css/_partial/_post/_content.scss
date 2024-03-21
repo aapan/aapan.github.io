@@ -6,7 +6,7 @@
   @for $i from 1 through 6 {
     h#{$i} {
       font-weight: 400;
-      font-family: $global-serif-font-family;
+      font-family: $global-font-family;
     }
   }
 

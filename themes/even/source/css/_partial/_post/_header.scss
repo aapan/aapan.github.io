@@ -5,7 +5,7 @@
     margin: 0;
     font-size: $post-title-font-size;
     font-weight: $post-title-font-weight;
-    font-family: $global-serif-font-family;
+    font-family: $global-font-family;
   }
 
   .post-link {
@@ -14,13 +14,14 @@
 
   .post-meta {
     .post-time {
-      font-size: 15px;
+      font-size: 18px;
       color: $post-meta-font-color;
     }
 
     .post-category {
       display: inline;
-      font-size: 14px;
+      font-size: 18px;
+      font-weight: 500;
       color: $post-meta-font-color;
 
       &::before {
