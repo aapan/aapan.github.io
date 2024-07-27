@@ -23,6 +23,8 @@
 
 <!-- Website keywords -->
 
+<meta name="keywords" content="tags, CoLife" />
+
 
 
 
@@ -201,6 +203,12 @@
       </span>
       
       
+      <span class="post-category">
+        
+        <a href="/categories/categories/">categories</a>
+        
+      </span>
+      
       
     </div>
   </header>
@@ -236,6 +244,19 @@
   </div>
 
   
+    <div class="related-posts">
+      <h3>相關文章</h3>
+      <ol>
+        
+          <li>
+            <a href="/2024/07/27/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  
+
+  
   <!-- Post Copyright -->
 <!-- 
 <div class="post-copyright">
@@ -261,12 +282,18 @@
   
   <footer class="post-footer">
     
+    <div class="post-tags">
+      
+      <a href="/tags/tags/">tags</a>
+      
+    </div>
+    
       
   <nav class="post-nav">  
       
       <a class="prev" href="/2024/07/27/why-start-writing-blog/">  
         <i class="iconfont icon-left"></i>  
-        <span class="prev-text nav-default">why-start-writing-blog</span>  
+        <span class="prev-text nav-default">開始寫部落格的起心動念</span>  
         <span class="prev-text nav-mobile">上一篇</span>  
       </a>  
       
@@ -281,6 +308,8 @@
         </div>
           
   <div class="comments" id="comments">  
+      
+      <div id="utterances-container"></div>  
       
   </div>  
   
@@ -392,7 +421,21 @@
     
     
     
-    
+  
+<script>
+  var container = document.getElementById('utterances-container');
+  var script = document.createElement('script');
+  script.src = 'https://utteranc.es/client.js';
+  script.setAttribute('repo', 'aapan/blog-reply');
+  script.setAttribute('issue-term', 'title');
+  script.setAttribute('theme', 'github-light');
+  script.setAttribute('label', 'utterances');
+  script.crossorigin = 'anonymous';
+  script.async = true;
+
+  container.appendChild(script);
+</script>
+  
     
   
 
