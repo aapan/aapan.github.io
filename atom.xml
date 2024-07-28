@@ -6,7 +6,7 @@
   <link href="http://aapan.github.io/atom.xml" rel="self"/>
   
   <link href="http://aapan.github.io/"/>
-  <updated>2024-07-27T06:26:34.989Z</updated>
+  <updated>2024-07-28T08:21:38.493Z</updated>
   <id>http://aapan.github.io/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="http://aapan.github.io/2024/07/27/why-start-writing-blog/"/>
     <id>http://aapan.github.io/2024/07/27/why-start-writing-blog/</id>
     <published>2024-07-27T04:38:44.000Z</published>
-    <updated>2024-07-27T06:26:34.989Z</updated>
+    <updated>2024-07-28T08:21:38.493Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;&lt;img</summary>
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/images/illustration/day69-dotted-notebook.png&quot;</summary>
         
       
     
@@ -46,17 +46,13 @@
     <link href="http://aapan.github.io/2024/07/27/hello-world/"/>
     <id>http://aapan.github.io/2024/07/27/hello-world/</id>
     <published>2024-07-27T04:37:59.689Z</published>
-    <updated>2024-07-27T07:02:40.934Z</updated>
+    <updated>2024-07-28T08:28:29.779Z</updated>
     
     
     <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</summary>
     
     
     
-    <category term="categories" scheme="http://aapan.github.io/categories/categories/"/>
-    
-    
-    <category term="tags" scheme="http://aapan.github.io/tags/tags/"/>
     
   </entry>
   
