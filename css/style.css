@@ -6,6 +6,27 @@
   font-weight: lighter;
   font-style: normal;
 }
+.related-posts {
+  margin-top: 4em;
+}
+.related-posts a {
+  color: #F05454;
+  word-break: break-all;
+}
+.related-posts a:hover {
+  border-bottom: 1px solid #F05454;
+}
+.related-posts a.fancybox {
+  border: 0;
+}
+
+cap {
+  display: block;
+  text-align: center;
+  font-size: 0.9em;
+  color: #666;
+}
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -532,7 +553,7 @@ h6 {
   overflow: hidden;
 }
 .header .site-navbar .menu .menu-item + .menu-item {
-  margin-left: 30px;
+  margin-left: 20px;
 }
 .header .site-navbar .menu .menu-item:before {
   content: "";
@@ -581,7 +602,7 @@ h6 {
 }
 .post .post-header .post-title {
   margin: 0;
-  font-size: 27px;
+  font-size: 28px;
   font-weight: bold;
   font-family: "nunito", sans-serif;
 }
@@ -612,13 +633,13 @@ h6 {
   left: 0;
 }
 .post .post-header .post-meta .post-time {
-  font-size: 18px;
-  color: #8a8a8a;
+  font-size: 20px;
+  color: #405D72;
 }
 .post .post-header .post-meta .post-category {
   display: inline;
-  font-size: 18px;
-  color: #8a8a8a;
+  font-size: 20px;
+  color: #405D72;
 }
 .post .post-header .post-meta .post-category::before {
   content: "·";
@@ -629,7 +650,7 @@ h6 {
 .post .post-header .post-meta .post-category a + a::before {
   content: "/";
   margin-right: 3px;
-  color: #8a8a8a !important;
+  color: #405D72 !important;
 }
 .post .post-header .post-meta .post-category a:hover {
   color: #F05454;
@@ -637,7 +658,7 @@ h6 {
 .post .post-header .post-meta .post-visits {
   display: inline-block;
   font-size: 14px;
-  color: #8a8a8a;
+  color: #405D72;
 }
 .post .post-header .post-meta .post-visits::before {
   content: "·";
@@ -695,15 +716,15 @@ h6 {
   font-family: "nunito", sans-serif;
 }
 .post .post-content h4 {
-  font-weight: 400;
+  font-weight: bold;
   font-family: "nunito", sans-serif;
 }
 .post .post-content h5 {
-  font-weight: 400;
+  font-weight: bold;
   font-family: "nunito", sans-serif;
 }
 .post .post-content h6 {
-  font-weight: 400;
+  font-weight: bold;
   font-family: "nunito", sans-serif;
 }
 .post .post-content .headerlink:hover {
@@ -739,7 +760,8 @@ h6 {
   margin: 0;
 }
 .post .post-content img {
-  display: inline-block;
+  display: block;
+  margin: 0 auto;
   max-width: 100%;
 }
 .post .post-content .table-responsive {
@@ -1261,7 +1283,7 @@ h6 {
 }
 .footer .copyright {
   margin: 10px 0;
-  color: #8a8a8a;
+  color: #405D72;
   text-align: center;
   font-family: "nunito", sans-serif;
 }
@@ -1290,12 +1312,12 @@ h6 {
   margin: 0;
   display: inline-block;
   font-weight: 400;
-  font-size: 60px;
-  line-height: 62px;
+  font-size: 28px;
+  line-height: 30px;
 }
 .archive .archive-title .archive-post-counter {
   display: none;
-  color: #8a8a8a;
+  color: #405D72;
 }
 .archive .collection-title {
   font-family: "nunito", sans-serif;
@@ -1303,17 +1325,16 @@ h6 {
 .archive .collection-title .archive-year {
   margin: 15px 0;
   font-weight: 400;
-  font-size: 30px;
-  line-height: 32px;
+  font-size: 28px;
+  line-height: 30px;
 }
 .archive .archive-post {
   padding: 3px 20px;
   border-left: 1px solid #cacaca;
-  font-size: 1.2em;
 }
 .archive .archive-post .archive-post-time {
   margin-right: 10px;
-  color: #8a8a8a;
+  color: #405D72;
 }
 .archive .archive-post .archive-post-title .archive-post-link {
   color: #F05454;
@@ -1327,7 +1348,7 @@ h6 {
   transform: translateX(4px);
 }
 .archive .archive-post:hover .archive-post-time {
-  color: #717171;
+  color: #2e4251;
 }
 .archive .archive-post:hover .archive-post-title .archive-post-link {
   color: #ec2525;
@@ -1339,11 +1360,11 @@ h6 {
     margin-right: auto;
   }
   .archive .archive-title .archive-name {
-    font-size: 56px;
+    font-size: 24px;
   }
   .archive .collection-title .archive-year {
     margin: 10px 0;
-    font-size: 26px;
+    font-size: 24px;
   }
   .archive .archive-post {
     padding: 5px 10px;
@@ -1360,12 +1381,13 @@ h6 {
 }
 .tag-cloud .tag-cloud-title {
   display: inline-block;
-  font-size: 18px;
+  font-size: 20px;
   color: #F05454;
-  border-bottom: 2px solid #F05454;
+  border-bottom: 0px solid #F05454;
 }
 .tag-cloud .tag-cloud-tags {
   margin: 10px 0;
+  font-size: 22px;
 }
 .tag-cloud .tag-cloud-tags a {
   display: inline-block;
@@ -1388,12 +1410,13 @@ h6 {
 }
 .categories .categories-title {
   display: inline-block;
-  font-size: 18px;
+  font-size: 20px;
   color: #F05454;
-  border-bottom: 2px solid #F05454;
+  border-bottom: 0px solid #F05454;
 }
 .categories .categories-tags {
   margin: 10px 0;
+  font-size: 22px;
 }
 .categories .categories-tags .category-link {
   display: inline-block;
