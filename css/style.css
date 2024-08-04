@@ -11,6 +11,7 @@
 }
 .related-posts a {
   color: #F05454;
+  font-weight: bold;
   word-break: break-all;
 }
 .related-posts a:hover {
@@ -410,7 +411,7 @@ th {
 }
 
 html {
-  font-size: 20px;
+  font-size: 18px;
   box-sizing: border-box;
 }
 
@@ -704,26 +705,32 @@ h6 {
   }
 }
 .post .post-content h1 {
+  color: #005C78;
   font-weight: bold;
   font-family: "nunito", sans-serif;
 }
 .post .post-content h2 {
+  color: #005C78;
   font-weight: bold;
   font-family: "nunito", sans-serif;
 }
 .post .post-content h3 {
+  color: #005C78;
   font-weight: bold;
   font-family: "nunito", sans-serif;
 }
 .post .post-content h4 {
+  color: #005C78;
   font-weight: bold;
   font-family: "nunito", sans-serif;
 }
 .post .post-content h5 {
+  color: #005C78;
   font-weight: bold;
   font-family: "nunito", sans-serif;
 }
 .post .post-content h6 {
+  color: #005C78;
   font-weight: bold;
   font-family: "nunito", sans-serif;
 }
@@ -732,6 +739,7 @@ h6 {
 }
 .post .post-content a {
   color: #F05454;
+  font-weight: bold;
   word-break: break-all;
 }
 .post .post-content a:hover {
@@ -1335,9 +1343,11 @@ h6 {
 .archive .archive-post .archive-post-time {
   margin-right: 10px;
   color: #405D72;
+  font-weight: 700;
 }
 .archive .archive-post .archive-post-title .archive-post-link {
   color: #F05454;
+  font-weight: 700;
 }
 .archive .archive-post::first-child {
   margin-top: 10px;

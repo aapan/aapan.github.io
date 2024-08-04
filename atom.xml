@@ -6,7 +6,7 @@
   <link href="http://aapan.github.io/atom.xml" rel="self"/>
   
   <link href="http://aapan.github.io/"/>
-  <updated>2024-07-28T08:21:38.493Z</updated>
+  <updated>2024-08-04T05:37:39.692Z</updated>
   <id>http://aapan.github.io/</id>
   
   <author>
@@ -21,16 +21,12 @@
     <link href="http://aapan.github.io/2024/07/27/why-start-writing-blog/"/>
     <id>http://aapan.github.io/2024/07/27/why-start-writing-blog/</id>
     <published>2024-07-27T04:38:44.000Z</published>
-    <updated>2024-07-28T08:21:38.493Z</updated>
+    <updated>2024-08-04T05:37:39.692Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/images/illustration/day69-dotted-notebook.png&quot;</summary>
-        
-      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/images/illustration/day69-dotted-notebook.png&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+&lt;p&gt;2023 年底我給自己訂了幾個年度目標，其中一項是「&lt;strong&gt;建立自律地生活習慣，更有效地利用時間來閱讀、思考和吸收知識&lt;/strong&gt;」，就像制定公司年度 OKR 一樣，我給自己定了目標，也定下了「&lt;strong&gt;透過每天至少閱讀 20 分鐘&lt;/strong&gt;」作為關鍵結果，透過紀錄每天的閱讀習慣來作為驗收標準，希望能一改過去總將過多的時間和注意力花在社群媒體、看影集和打遊戲上。&lt;/p&gt;
+&lt;p&gt;到了現在 2024 年的 7 月底，回顧今年上半年，雖然沒有確實執行到「每天」閱讀，但至少會有意識的提醒自己要記得多多看書，而成果也還算滿意，截至目前&lt;strong&gt;已讀完超過 10 本書&lt;/strong&gt;，跟去年一整年一隻手數的出來的閱讀量，可說是顯著成長許多。&lt;/p&gt;</summary>
     
     
     
@@ -38,21 +34,6 @@
     
     
     <category term="卡片盒筆記" scheme="http://aapan.github.io/tags/%E5%8D%A1%E7%89%87%E7%9B%92%E7%AD%86%E8%A8%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://aapan.github.io/2024/07/27/hello-world/"/>
-    <id>http://aapan.github.io/2024/07/27/hello-world/</id>
-    <published>2024-07-27T04:37:59.689Z</published>
-    <updated>2024-07-28T08:28:29.779Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</summary>
-    
-    
-    
     
   </entry>
   
